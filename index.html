@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- LINK DE BOOTSTRAP ANTES DE NUESTRO CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css" </head>
+  <script src="https://kit.fontawesome.com/fe0f28557c.js" crossorigin="anonymous"></script>
+
+<body>
+  <!-- Barra de navegacion -->
+  <div class="navbar shadow">
+    <a class="navbar-brand">
+      Navbar
+    </a>
+    <div>
+      Logo
+    </div>
+    <div class="d-flex gap-2 bg-special">
+      <div>
+        accion 1
+      </div>
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Launch demo modal
+      </button>
+
+    </div>
+  </div>
+  <!-- Termina barra de navegacion -->
+
+  <div class="container-fluid border border-5 border-primary">
+    Hola
+    <div class="container border border-warning">
+      Hola
+      <button class="btn btn-primary hoveranimation">Hola</button>
+    </div>
+  </div>
+  <!-- PADDING -->
+  <!-- Clases bg: background-color, p: padding, m: margin -->
+  <div class="px-5 py-5">
+    <img src="./default.jpeg" class="border-5 border-primary border-bottom border-danger" />
+  </div>
+  <!-- post-actions -->
+  Imagen
+  <div class="d-flex justify-content-between align-items-center m-3 fs-4 text-warning ">
+    <div class="d-flex gap-3">
+
+      <i class="fas fa-comments"></i>
+      <i class="fas fa-share-alt"></i>
+    </div>
+    <div>
+      <i class="fas fa-bookmark"></i>
+    </div>
+  </div>
+  <!-- La grilla tiene un maximo de 12 cols -->
+  <div class="row">
+    <!-- col-4 vale 4 espacios de la grilla -->
+    <div class="col-lg-3 col-md-4 col-12 border border-5 border-danger">Lorem ipsum dolor sit, amet consectetur
+      adipisicing elit. Non, in dignissimos. Iure repudiandae excepturi eius autem! Aspernatur harum deleniti commodi
+      sapiente iure ducimus beatae amet, iste placeat. Neque dolorem quod voluptatem commodi atque, fugit pariatur in
+      consequatur eaque. Officia quis eum repudiandae illum incidunt nam soluta praesentium corporis odio labore!</div>
+    <div class="col-lg-3 col-md-4 col-12 border border-5 border-danger">Lorem ipsum dolor sit, amet consectetur
+      adipisicing elit. Non, in dignissimos. Iure repudiandae excepturi eius autem! Aspernatur harum deleniti commodi
+      sapiente iure ducimus beatae amet, iste placeat. Neque dolorem quod voluptatem commodi atque, fugit pariatur in
+      consequatur eaque. Officia quis eum repudiandae illum incidunt nam soluta praesentium corporis odio labore!</div>
+    <div class="col-lg-3 col-md-4 col-12 border border-5 border-danger">Lorem ipsum dolor sit, amet consectetur
+      adipisicing elit. Non, in dignissimos. Iure repudiandae excepturi eius autem! Aspernatur harum deleniti commodi
+      sapiente iure ducimus beatae amet, iste placeat. Neque dolorem quod voluptatem commodi atque, fugit pariatur in
+      consequatur eaque. Officia quis eum repudiandae illum incidunt nam soluta praesentium corporis odio labore!</div>
+    <div class="col-lg-3 col-md-4 col-12 border border-5 border-danger">Lorem ipsum dolor sit, amet consectetur
+      adipisicing elit. Non, in dignissimos. Iure repudiandae excepturi eius autem! Aspernatur harum deleniti commodi
+      sapiente iure ducimus beatae amet, iste placeat. Neque dolorem quod voluptatem commodi atque, fugit pariatur in
+      consequatur eaque. Officia quis eum repudiandae illum incidunt nam soluta praesentium corporis odio labore!</div>
+
+
+  </div>
+  <!-- Grande tenga 4 elementos, en mediano 2 y en pequeño 1 -->
+  <div class="row">
+    <div class="col-lg-3 col-md-6 col-12 border border-3 border-warning bg-primary">Soy un post de pinterest</div>
+    <div class="col-lg-3 col-md-6 col-12 border border-3 border-warning bg-primary">Soy un post de pinterest</div>
+    <div class="col-lg-3 col-md-6 col-12 border border-3 border-warning bg-primary">Soy un post de pinterest</div>
+    <div class="col-lg-3 col-md-6 col-12 border border-3 border-warning bg-primary">Soy un post de pinterest</div>
+    <div class="col-lg-3 col-md-6 col-12 border border-3 border-warning bg-primary">Soy un post de pinterest</div>
+    <div class="col-lg-3 col-md-6 col-12 border border-3 border-warning bg-primary">Soy un post de pinterest</div>
+  </div>
+
+
+
+  <!-- Modal -->
+  <div class="modal fade my-5" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Hola este es mi modal que hice en 5 minutos
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><i class="fas fa-heart"></i></button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- LOS SCRIPTS VAN ANTES DE CERRAR EL BODY -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
